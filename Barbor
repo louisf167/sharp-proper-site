@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sharp & Proper Barbers — Shoreditch, London</title>
+  <meta name="description" content="Sharp & Proper Barbers in Shoreditch — precision cuts, classic shaves, and modern styling. Book online or call +44 20 8123 4567." />
+  <meta name="author" content="Sharp & Proper Barbers" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.png" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sharp & Proper Barbers — Shoreditch, London" />
+  <meta property="og:description" content="Sharp fades. Proper cuts. Precision barbery in Shoreditch." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/og-image.jpg" />
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Sharp & Proper Barbers",
+    "image": "https://example.com/og-image.jpg",
+    "telephone": "+44 20 8123 4567",
+    "email": "hello@sharpproper.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "12 Redchurch Street",
+      "addressLocality": "Shoreditch",
+      "addressRegion": "London",
+      "postalCode": "E2 7DP",
+      "addressCountry": "UK"
+    },
+    "url": "https://example.com",
+    "priceRange": "££",
+    "openingHours": "Mo,Tu,We,Th,Fr 09:00-19:00; Sa 09:00-17:00; Su 10:00-15:00"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Sharp & Proper</h1>
+        <p class="tagline">Sharp fades. Proper cuts.</p>
+      </div>
+      <nav class="top-nav">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Precision cuts & classic shaves in Shoreditch</h2>
+          <p>Walk-ins welcome. Expert barbers, modern style, timeless service.</p>
+          <a class="btn primary" href="#book">Book Now</a>
+          <a class="btn ghost" href="#services">See Services</a>
+        </div>
+        <div class="hero-image">
+          <img alt="Barber with scissors" src="hero.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container services">
+      <h3>Services & Prices</h3>
+      <div class="service-grid">
+        <div class="service">
+          <h4>Classic Cut</h4>
+          <p>Precision haircut with consultation & finish.</p>
+          <span class="price">£25</span>
+        </div>
+        <div class="service">
+          <h4>Fade</h4>
+          <p>Skin & tapered fades with detailed styling.</p>
+          <span class="price">£28</span>
+        </div>
+        <div class="service">
+          <h4>Beard Trim</h4>
+          <p>Scissor + razor finish for clean lines.</p>
+          <span class="price">£12</span>
+        </div>
+        <div class="service">
+          <h4>Hot Towel Shave</h4>
+          <p>Traditional straight-razor shave with hot towels.</p>
+          <span class="price">£30</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="container gallery">
+      <h3>Gallery</h3>
+      <div class="grid">
+        <img src="gallery1.jpg" alt="Fade haircut" />
+        <img src="gallery2.jpg" alt="Classic pompadour" />
+        <img src="gallery3.jpg" alt="Beard trim" />
+        <img src="gallery4.jpg" alt="Shoreditch barbershop interior" />
+      </div>
+    </section>
+
+    <section id="book" class="container booking">
+      <h3>Book an Appointment</h3>
+      <p>Use the form below to request a booking. We’ll confirm by email or phone.</p>
+
+      <!-- FORM: works with Formspree or similar. See deployment notes below. -->
+      <form id="bookingForm" action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="tel" name="phone" placeholder="Phone (e.g. +44 20 7...)" required />
+        </div>
+        <div class="form-row">
+          <input type="email" name="_replyto" placeholder="Email" required />
+          <input type="text" name="service" placeholder="Service (e.g. Fade)" required />
+        </div>
+        <div class="form-row">
+          <input type="datetime-local" name="preferred" placeholder="Preferred date/time" />
+        </div>
+        <div class="form-row">
+          <textarea name="notes" rows="4" placeholder="Notes (optional)"></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="New booking from website" />
+        <button type="submit" class="btn primary">Request Booking</button>
+      </form>
+      <p class="small">Prefer to call? <a href="tel:+442081234567">+44 20 8123 4567</a></p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact & Location</h3>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Address</strong><br/>12 Redchurch Street, Shoreditch, London E2 7DP</p>
+          <p><strong>Phone</strong><br/><a href="tel:+442081234567">+44 20 8123 4567</a></p>
+          <p><strong>Email</strong><br/><a href="mailto:hello@sharpproper.co.uk">hello@sharpproper.co.uk</a></p>
+          <p><strong>Hours</strong><br/>Mon–Fri: 09:00–19:00<br/>Sat: 09:00–17:00<br/>Sun: 10:00–15:00</p>
+        </div>
+        <div class="map">
+          <!-- Replace the src value with your Google Maps embed for the exact address -->
+          <iframe
+            title="Shop location"
+            src="https://www.google.com/maps?q=Shoreditch%2C+London&output=embed"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sharp & Proper Barbers — Shoreditch</p>
+      <p><a href="#privacy">Privacy</a> · <a href="#terms">Terms</a></p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>:root{
+  --bg:#0f0f10;
+  --card:#121212;
+  --accent:#d4af37; /* gold */
+  --muted:#bdbdbd;
+  --white:#ffffff;
+  --max:1100px;
+  font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--white);-webkit-font-smoothing:antialiased}
+.container{max-width:var(--max);margin:0 auto;padding:28px}
+
+.site-header{border-bottom:1px solid rgba(255,255,255,0.03)}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand h1{margin:0;font-size:20px;letter-spacing:1px}
+.tagline{margin:0;color:var(--muted);font-size:13px}
+.top-nav a{color:var(--muted);margin-left:18px;text-decoration:none;font-size:14px}
+
+.hero{padding:48px 0}
+.hero-inner{display:flex;gap:24px;align-items:center}
+.hero-text{flex:1}
+.hero-text h2{font-size:30px;margin:0 0 8px}
+.hero-text p{color:var(--muted);margin:0 0 16px}
+.hero-image img{width:320px;height:240px;object-fit:cover;border-radius:6px}
+
+/* buttons */
+.btn{display:inline-block;padding:10px 16px;border-radius:6px;text-decoration:none}
+.btn.primary{background:var(--accent);color:var(--bg);font-weight:600}
+.btn.ghost{border:1px solid rgba(255,255,255,0.06);color:var(--white)}
+
+.services{padding:30px 0}
+.service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.service{background:var(--card);padding:16px;border-radius:8px}
+.price{display:block;margin-top:10px;font-weight:700;color:var(--accent)}
+
+.gallery .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.gallery img{width:100%;height:140px;object-fit:cover;border-radius:6px}
+
+.booking{padding:30px 0;background:linear-gradient(0deg, rgba(255,255,255,0.01), transparent)}
+.form-row{display:flex;gap:10px;margin-bottom:10px}
+.form-row input, textarea{flex:1;padding:10px;border-radius:6px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--white)}
+input[type="datetime-local"]{padding:8px}
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+.map iframe{width:100%;height:220px;border:0;border-radius:6px}
+
+/* footer */
+.site-footer{border-top:1px solid rgba(255,255,255,0.03);padding:18px 0;margin-top:24px;color:var(--muted);font-size:13px;text-align:center}
+
+@media (max-width:820px){
+  .hero-inner{flex-direction:column}
+  .form-row{flex-direction:column}
+  .contact-grid{grid-template-columns:1fr}
+}// small interactive bits
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// simple form feedback (works with Formspree or similar)
+const form = document.getElementById('bookingForm');
+if(form){
+  form.addEventListener('submit', function(e){
+    // let the form submit normally to Formspree; show a quick UI hint
+    const btn = form.querySelector('button');
+    btn.textContent = "Sending...";
+    btn.disabled = true;
+    setTimeout(()=>{ btn.textContent = "Request Booking"; btn.disabled = false; }, 4000);
+  });
+}<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/#services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/#book</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>User-agent: *
+Allow: /
+Sitemap: https://example.com/sitemap.xml
